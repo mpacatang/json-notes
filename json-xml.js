@@ -1,5 +1,5 @@
-	$(document).ready(function() {	
-	console.log(tableQuery);
+$(document).ready(function() {	
+	var tableQuery = 'json url';
 	// Testing
     var testRequest = new XMLHttpRequest();
     testRequest.open('GET', tableQuery);
